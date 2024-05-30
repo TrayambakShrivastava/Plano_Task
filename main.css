@@ -1,0 +1,834 @@
+/*Top Menu Bar section of the document*/
+.topMenuWrapper{
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-start;
+    padding-left: 200px;
+    background-color: rgb(255, 115, 0);
+    height: 60px;
+}
+
+.topMenuItem{
+    padding-top: 10px;
+    color: white;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+}
+
+.topMenuItemIcon{
+    margin-top: 10px;
+    color: white;
+}
+
+.topMenuItemTag{
+    color: white;
+    margin-top: 10px ;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 40px;
+}
+
+.removeTop{
+    font-size: 40px;
+    background-color: rgb(255, 115, 0);
+    margin-left: auto;
+    margin-right: 150px;
+    color: white;
+    border: none;
+}
+/*Top Menu Bar section of the document ends*/
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+/*Company Name Display Section of the document*/
+.companyNameWrapper{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+}
+
+.companyMenu{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding-left: 450px;
+}
+
+.companyMenuItem{
+    font-size: 20px;
+    margin-top: auto;
+    color: gray;
+    transition: 0.1s;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.search{
+    margin-left: auto;
+    margin-right: 150px;
+}
+
+.companyMenuItem:hover{color: rgb(255, 115, 0);}
+
+/*Company Name Display section ends here*/
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+/*Carousel Section*/
+.carouselWrapper{
+    padding-top: 30px;
+}
+
+.carouselSlide{
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: none;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 500px;
+}
+
+.rightButtonCarousel{
+    height: 90px;
+    border: none;
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.leftButtonCarousel{
+    height: 90px;
+    border: none;
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    transition: 0.3s;
+}
+
+.leftButton:hover{background-color: white;}
+.rightButton:hover{background-color: white;}
+
+.imgText{
+    color: white;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: 200px;
+    width: 300px;
+}
+
+
+.learnMore{
+    margin-top: 20px;
+    width: 200px;
+    height: 40px;
+    background-color: #4a90e2;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+/*Carousel ends here*/
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+/*Carousel Slide Marker(4Dots below carousel) Section*/
+.imgDotWrapper{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.dot {
+    margin-left: 4px;
+    margin-right: 4px;
+    height: 10px;
+    width: 10px;
+    background-color: gray;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+/*Carousel slide marker section ends  */
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+/*Image Caption Section*/
+.imageCaptionWrapper{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    color: gray;
+    width: 800px;
+    text-shadow: 1px 1px 1px gray;
+    font-size: 25px;
+}
+/*Image Caption section ends*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*GrayBox with Icons Section*/
+.grayBoxWrapper{
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 40px;
+    background-color: rgb(222, 222, 222);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.grayBoxItem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.grayBoxText{
+    color: rgb(94, 93, 93);
+    text-align: center;
+    width: 200px;
+}
+
+
+.iconOuterGrayBox{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: rgb(158, 156, 156);
+}
+
+.iconInnerGrayBox{
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    font-size: 40px;
+}
+/*GrayBox with Icons Section Ends*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*Portfolio Section Of The Page*/
+.portfolioWrapper{
+    /*Created for the sake of modularity*/
+}
+
+.portfolioUpper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: gray;
+    margin-top: 30px;
+    font-size: 20px;
+    margin-right: 300px;
+    margin-left: 300px;
+}
+
+.portfolioImagesWrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.portfolioCaptionImage{
+    position: relative;
+    display: inline-block;
+    margin-top: auto;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: center;
+    color: gray;
+    margin-bottom: 40px;
+}
+
+.link-icon {
+    position: absolute;
+    bottom: 30px;
+    left: 10px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    color: white;
+    border-radius: 5px;
+}
+
+.icon {
+    display: none;
+    font-size: 20px;
+}
+
+.portfolioCaptionImage:hover{
+    opacity: 0.5;
+}
+.portfolioCaptionImage:hover .link-icon {
+    display: flex;
+}
+
+.portfolioCaptionImage:hover .icon {
+    display: block;
+}
+
+/*Portfolio Section Of the Page Ends*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+/*About Us Section Of the Page*/
+
+.aboutUsWrapper{
+    padding-top: 30px;
+    padding-bottom: 40px;
+    background-color:  rgb(222, 222, 222);
+}
+
+.aboutUsUpper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: gray;
+    margin-top: 30px;
+    font-size: 20px;
+    margin-right: 300px;
+    margin-left: 300px;
+}
+
+.aboutUsTextWrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.aboutUsTextBoxleft{
+    margin-left: 250px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+.aboutUsTextBoxright{
+    margin-left: 50px;
+    margin-right: 250px;
+    margin-bottom: 50px;
+}
+/*About us Section of the Page ends here*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Testimonial Section Of the Page*/
+.testimonialWrapper{
+color: gray;
+}
+
+.tstmnlIconWrapper{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 300px;
+    margin-left: 300px;
+}
+
+
+.tstmnlText{
+    display: none;
+    text-align: center;
+    font-size: xx-large;
+    font-style: italic;
+    width: 800px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+}
+
+.tstmnlIcon{
+    height: 40px;
+    width: 40px;
+    fill: black;
+}
+
+.logoDotWrapper{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.logoDot {
+    margin-left: 4px;
+    margin-right: 4px;
+    height: 10px;
+    width: 10px;
+    background-color: gray;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+/*Testimonial Section ends here*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*ImageBox Section Begins Here*/
+.imageBoxWrapper{
+}
+
+.imageBoxUpper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: gray;
+    margin-top: 30px;
+    font-size: 20px;
+    margin-right: 300px;
+    margin-left: 300px;
+}
+.imageBoxImagesWrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.imageBoxCaptionImage{
+    color: gray;
+    background-color:rgb(239, 244, 244);
+    margin-top: auto;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 70px;
+}
+
+
+.imageCaption1{
+    color: rgb(0, 211, 211); 
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.imageCaption2{
+    margin-left: 10px;
+}
+
+.imageCaption3{
+    margin-top: 60px;
+    margin-left: 10px;
+    color: black;
+}
+
+.imageBoxCaptionImage:hover{
+    background-color:aqua;
+    color: white;
+}
+
+.imageBoxCaptionImage:hover  .imageCaption1 {
+    color: white;
+}
+.imageBoxCaptionImage:hover  .imageCaption3 {
+    color: white;
+}
+/*ImageBox Section ends here*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+/*SkyBox Section of the Page*/
+.skyBoxWrapper{
+    background-image: url(aquablue.jpeg);
+    display: flex;
+    height: 380px;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+}
+
+.skyBoxelement{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    align-items: center;
+}
+
+.skyBoxelementHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-right: 80px;
+}
+
+.skyBoxelementBody{
+    text-align: center;
+    margin-top: 30px;
+    width: 300px;
+}
+
+.skyBoxelementButton{
+    margin-top: 20px;
+    margin-left: 90px;
+    background-color: white;
+    opacity: 0.4;
+    border: solid 5px  rgba(255,255,255, 1);
+    transition: 0.1s;
+}
+
+
+.skyBoxIcon{
+    height: 30px;
+    width: 30px;
+    fill: white;
+}
+
+.skyBoxelementButton:hover{opacity: 1;}
+
+/*SkyBox section of the page ends here*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*Follow Us section of the document*/
+
+.followUs{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-left: 220px;
+    font-size: large;
+    font-weight: 500;
+    background-color: rgb(69, 69, 84);
+    text-shadow: 1px 1px 1px;
+    height: 150px;
+    color: white;
+}
+
+
+.iconWrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: 210px;
+}
+
+.bottomIcon{
+    height: 30px;
+    width: 30px;
+    fill: rgb(69, 69, 84);
+}
+
+.circle {
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: gray;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.circle:hover{
+    background-color: white;
+}
+
+
+/*Follow Us Section Of the document ends*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+/* Footer Section Of the document*/
+.footerWrapper{
+    display: flex;
+    height: 500px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgb(25, 25, 25);
+}
+
+.footerElement{
+    margin-top: 100px;
+    color: white;
+    width: 180px;
+}
+
+.footerElementHead{
+    font-size: x-large;
+    text-shadow: 1px 1px 1px;
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+
+.footerElementBody{
+    margin-bottom: 40px;
+    font-size: medium;
+}
+/* Footer Section Of the document ends*/
