@@ -19,7 +19,7 @@ function shiftImg(n) {
     y[currentIndex].style.backgroundColor = "gray";
     var nextIndex = (currentIndex + n + x.length) % x.length;
     x[nextIndex].style.display = "flex";
-    y[nextIndex].style.backgroundColor = "aqua";
+        y[nextIndex].style.backgroundImage = x[nextIndex].style.backgroundImage;
 
 }
 
