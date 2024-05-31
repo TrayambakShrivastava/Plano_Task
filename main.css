@@ -142,8 +142,8 @@
     transition: 0.3s;
 }
 
-.leftButton:hover{background-color: white;}
-.rightButton:hover{background-color: white;}
+.leftButtonCarousel:hover{background-color: white;}
+.rightButtonCarousel:hover{background-color: white;}
 
 .imgText{
     color: white;
