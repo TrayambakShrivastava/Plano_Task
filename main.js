@@ -17,7 +17,7 @@ function shiftImg(n) {
     }
     x[currentIndex].style.display = "none";
     y[currentIndex].style.backgroundColor = "gray";
-    y[nextIndex].style.backgroundImage = "none;
+    y[nextIndex].style.backgroundImage = "none";
     var nextIndex = (currentIndex + n + x.length) % x.length;
     x[nextIndex].style.display = "flex";
     y[nextIndex].style.backgroundImage = x[nextIndex].style.backgroundImage;
